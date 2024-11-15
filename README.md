@@ -6,14 +6,12 @@ Install Lighthouse package
 Role Variables
 --------------
 
-| var | description |
-|------|-------------|
-|vector_version| Version of Vector package|
+No user variables
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+With Lighthouse package install NGINX package
 
 Example Playbook
 ----------------
@@ -22,7 +20,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: lighthouse-role }
+         - { role: lighthouse }
 
 License
 -------
